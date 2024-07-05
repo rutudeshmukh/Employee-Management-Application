@@ -19,7 +19,7 @@ public class Employee {
     private String emailId;
 
     @Column(name = "mobile_no")
-    private int mobileNo;
+    private long mobileNo;
 
     public long getId(){
         return id;
@@ -53,18 +53,18 @@ public class Employee {
         this.emailId = emailId;
     }
 
-    public int getMobileNo() {
+    public long getMobileNo() {
         return mobileNo;
     }
 
-    public void setMobileNo(int mobileNo) {
+    public void setMobileNo(long mobileNo) {
         this.mobileNo = mobileNo;
     }
     public Employee(){
 
     }
 
-    public Employee(String firstName,String lastName,String emailId,int mobileNo){
+    public Employee(String firstName,String lastName,String emailId,long mobileNo){
         super();
         this.firstName=firstName;
         this.lastName=lastName;
