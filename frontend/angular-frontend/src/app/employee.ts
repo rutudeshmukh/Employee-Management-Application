@@ -3,6 +3,6 @@ export class Employee {
     firstName :string;
     lastName : string;
     emailId: string;
-    mobileNo: number;
+    mobileNo: string;
 
 }
