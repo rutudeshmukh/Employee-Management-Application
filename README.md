@@ -16,9 +16,9 @@ The Employee Management System is a web application designed to manage employee 
 **Database**: MySQL
 
 **Prerequisites** :
-Java Development Kit (JDK) 8 or later
-Node.js and npm
-Angular CLI
+Java Development Kit (JDK) 8 or later,
+Node.js and npm,
+Angular CLI,
 MySQL Server
 
 ![image](https://github.com/rutudeshmukh/Employee-Management-Application/assets/69516019/09ae8074-bb6e-4c5b-8206-481da6149796)
